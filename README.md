@@ -98,12 +98,19 @@ Dodatki należy umieścić w jednym z folderów w zależności od tego czy uruch
 - 32bit: C:\Program Files (x86)\Common Files\Soneta\Assemblies\
 - 64bit: C:\Program Files\Common Files\Soneta\Assemblies\
 
-### Import pliku
+### Import przykładowego pliku
 
-Po uruchomieniu enova365 opcja importu dostępna będzie z menu PLIK/IMPORTUJ ZAPISY pod nazwą **IMPORT TXT PRZYKŁAD Z GITHUB...**
+Integralną częścią infrastruktury do importu danych opartej o standardowy dodatek *Enova.ImportyKsiegowe* jest plik konfiguracyjny sterujący przebiegiem importu.
 
-Po poprawnym imporcie danych z przykładowego pliku "SampleInput.txt" w aplikacji powinny pojawić się następujące dane:
+W niniejszym repozytorium znajduje się plik "Enova.ImportyKsiegowe.settings.xml", który zawiera ustawienia wymagane przez omawiany przykład.
+Plik ten należy skopiować do folderu konfiguracyjnego enova365, który można otworzyć bezpośrednio z aplikacji korzystając z polecenia menu **Widok/Pokaż katalog z ustawieniami**.
+
+
+Po uruchomieniu enova365 opcja importu dostępna będzie z menu PLIK/IMPORTUJ ZAPISY pod nazwą   
+**IMPORT TXT PRZYKŁAD Z GITHUB...**
+
+Po poprawnym imporcie danych z załączonego pliku *SampleInput.txt* w aplikacji powinny pojawić się następujące dane:
 
 - kontrahenci o kodach KOWALSKA, KOWALSKI
-- dwie ewidencje typu raport bankowy z 5 i 6 lutego 2015
+- dwie ewidencje typu raport bankowy z dnia 5 oraz 6 lutego 2015
 - cztery zapłaty umieszczone w w/w ewidencjach 
