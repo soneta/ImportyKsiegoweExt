@@ -53,7 +53,7 @@ Plikiem wejściowym jest plik tesktowy CSV. Każdy wiersz zawiera jedno poleceni
 (kolejne pola oznaczają: symbol definicji raportu, datę raportu, numer raportu)
 
 - **WPL**, **WYP**: dane wpłaty/wypłaty dodawanej do raportu  
-(kolejne pola oznaczają: datę zapłaty, kod kontrahenta, sposób zapłaty, kwotę, symbol kwoty, numer zapłaty, opis zapłaty)
+(kolejne pola oznaczają: datę zapłaty, kod kontrahenta, sposób zapłaty, kwotę, symbol kwoty, zapłata za, opis zapłaty)
 
 ### Przygotowanie bazy demo
 
