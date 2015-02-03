@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Translator xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ImportDuplicatedDocuments>true</ImportDuplicatedDocuments>
+	<CancelIdentyficationByCode>true</CancelIdentyficationByCode>
+	<EuVATSearchKey>MiejscowoscKodPocztowy</EuVATSearchKey>
+	<UpdateKontrahent>true</UpdateKontrahent>
+	<VATCalculationMethod>StawkaNetto</VATCalculationMethod>
+	<CancelZeroPOZ>true</CancelZeroPOZ>
+	<DefaultODD>Centrala</DefaultODD>
+	<AcceptDocumentAfterImport>false</AcceptDocumentAfterImport>
+	<AccountDokumentAfterImport>false</AccountDokumentAfterImport>
+	<CommitImportIfErrors>false</CommitImportIfErrors>
+	<Categories>
+		<Category Name="Oddział">
+			<Items>
+			</Items>
+		</Category>
+		<Category Name="EwidencjaŚP">
+			<Items>
+			</Items>
+		</Category>
+		<Category Name="Definicja płatności">
+			<Items>
+			</Items>
+		</Category>
+		<Category Name="Definicja ewidencji">
+			<Items>
+			</Items>
+		</Category>
+		<Category Name="Opis ewidencji">
+			<Items>
+			</Items>
+		</Category>
+		<Category Name="Definicja cechy">
+			<Items>
+			</Items>
+		</Category>
+		<Category Name="Definicje do zatwierdzenia">
+			<Items>
+			</Items>
+		</Category>
+		<Category Name="Definicje do predekretacji">
+			<Items>
+			</Items>
+		</Category>
+	</Categories>
+	<Features>
+	</Features>
+</Translator>

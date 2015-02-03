@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{292DBAEE-AC1C-451F-AC12-6CA5073363BC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Soneta.GitHub.ExampleImportTxt</RootNamespace>
+    <AssemblyName>GitHubExampleImportTxt</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>C:\Program Files %28x86%29\Common Files\Soneta\Assemblies\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Enova.ImportyKsiegowe">
+      <HintPath>..\Konfiguracja\Enova.ImportyKsiegowe.dll</HintPath>
+    </Reference>
+    <Reference Include="Soneta.Business">
+      <HintPath>..\..\..\..\..\..\projects\enova1005\enova1005r0\bin\Debug\Soneta.Business.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Soneta.Core">
+      <HintPath>..\..\..\..\..\..\projects\enova1005\enova1005r0\bin\Debug\Soneta.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Soneta.EI">
+      <HintPath>..\..\..\..\..\..\projects\enova1005\enova1005r0\bin\Debug\Soneta.EI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Soneta.Types">
+      <HintPath>..\..\..\..\..\..\projects\enova1005\enova1005r0\bin\Debug\Soneta.Types.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ExampleFormatFilter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExampleFormatImporter.cs" />
+    <Compile Include="ExampleFormatReader.cs" />
+    <Compile Include="ExampleFormatReaderInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
