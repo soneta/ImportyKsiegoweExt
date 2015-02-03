@@ -2,7 +2,7 @@
 
 <Translator xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<ImportDuplicatedDocuments>true</ImportDuplicatedDocuments>
-	<CancelIdentyficationByCode>true</CancelIdentyficationByCode>
+	<CancelIdentyficationByCode>false</CancelIdentyficationByCode>
 	<EuVATSearchKey>MiejscowoscKodPocztowy</EuVATSearchKey>
 	<UpdateKontrahent>true</UpdateKontrahent>
 	<VATCalculationMethod>StawkaNetto</VATCalculationMethod>

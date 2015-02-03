@@ -2,11 +2,11 @@
 "KON";"KOWALSKI";"HANDEL OBWOŹNY - JAN KOWALSKI"
 
 "ESP";"BANK7"
-"RAP";"WBEW";"2014-10-05";"WB/2015/1"
+"RAP";"WBEW";"2014-02-05";"WB/2015/1"
 "WPL";"2015-02-05";"KOWALSKA";"Przelew";1000.00;"PLN";"FV/06/01";"Opis zapłaty 1"
 "WYP";"2015-02-05";"KOWALSKI";"Przelew";900.00;"PLN";"FV/07/02";"Opis zapłaty 2"
 
 "ESP";"BANK7"
-"RAP";"WBEW";"2014-10-06";"WB/2015/2"
+"RAP";"WBEW";"2014-02-06";"WB/2015/2"
 "WPL";"2015-02-06";"KOWALSKA";"Przelew";800.00;"PLN";"FVX/06/01";"Opis zapłaty 3"
 "WYP";"2015-02-06";"KOWALSKI";"Przelew";700.00;"PLN";"FVX/07/03";"Opis zapłaty 4"
